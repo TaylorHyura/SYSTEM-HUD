@@ -1,0 +1,48 @@
+{
+	"menu_id": "syshud_options_menu",
+	"parent_menu_id": "blt_options",
+	"title": "syshud_options_title",
+	"description": "syshud_options_description",
+	"back_callback": "SYSHUDSave",
+	"items": [
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "interaction",
+			"value": "interaction",
+			"title": "syshud_option_interaction_title",
+			"description": "syshud_option_interaction_description"
+		},
+		{
+			"type": "slider",
+			"callback": "SYSHUDGenericOption",
+			"id": "min_timer_duration",
+			"value": "min_timer_duration",
+			"title": "syshud_option_timer_title",
+			"description": "syshud_option_timer_description",
+			"min": 0,
+			"max": 10,
+			"step": 0.5
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "equipment",
+			"value": "equipment",
+			"title": "syshud_option_equipment_title",
+			"description": "syshud_option_equipment_description"
+		},
+		{
+			"type" : "divider",
+			"size" : 20
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "empty_lobby",
+			"value": "empty_lobby",
+			"title": "syshud_empty_lobby_options_title",
+			"description": "syshud_empty_lobby_options_description"
+		}
+	]
+}

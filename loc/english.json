@@ -1,0 +1,19 @@
+{
+    "syshud_empty_lobby_title": "Create Empty Lobby",
+    "syshud_empty_lobby_description": "Create a contractless multiplayer lobby. (defaults to friends-only)",
+
+    "syshud_options_title": "SYSTEM HUD",
+    "syshud_options_description": "",
+
+    "syshud_option_interaction_title": "Interactions",
+    "syshud_option_interaction_description": "Makes interactions timer a toggle.",
+
+    "syshud_option_timer_title": "Minimum Timer Duration",
+    "syshud_option_timer_description": "Only applies to interactions.",
+
+    "syshud_option_equipment_title": "Equipment",
+    "syshud_option_equipment_description": "Makes equipment deployable timer a toggle.",
+
+    "syshud_empty_lobby_options_title": "Create Empty Lobby",
+    "syshud_empty_lobby_options_description": "Adds a button to the main menu to create a contractless multiplayer lobby. (defaults to friends-only)"
+}
