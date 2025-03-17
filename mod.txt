@@ -2,6 +2,7 @@
   	"name": "SYSTEM HUD",
   	"description": "",
   	"author": "Hyura",
+	"image" : "icon.png",
   	"version": "1.0",
   	"blt_version": 2,
 	"hooks" : [
