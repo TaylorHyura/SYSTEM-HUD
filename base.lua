@@ -4,10 +4,16 @@ _G.SYSHUD = _G.SYSHUD or {}
 SYSHUD._mod_path = ModPath
 SYSHUD._save_path = SavePath .. 'syshud.json'
 SYSHUD._settings = {
-	interaction = true,
-	min_timer_duration = 0,
-	equipment = true,
-	empty_lobby = true
+	toggle_interaction = true,
+	min_timer_toggle_duration = 0,
+	toggle_equipment = true,
+	toggle_mask = true,
+	empty_lobby = true,
+	skip_black_screen = true,
+	skip_stat_screen = true,
+	skip_stat_screen_delay = 3,
+	skip_card_screen = true,
+	skip_card_screen_delay = 5
 }
 
 function SYSHUD:load()

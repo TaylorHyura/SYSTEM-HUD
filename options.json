@@ -8,18 +8,18 @@
 		{
 			"type": "toggle",
 			"callback": "SYSHUDToggleOption",
-			"id": "interaction",
-			"value": "interaction",
-			"title": "syshud_option_interaction_title",
-			"description": "syshud_option_interaction_description"
+			"id": "toggle_interaction",
+			"value": "toggle_interaction",
+			"title": "syshud_option_toggle_interaction_title",
+			"description": "syshud_option_toggle_interaction_description"
 		},
 		{
 			"type": "slider",
 			"callback": "SYSHUDGenericOption",
-			"id": "min_timer_duration",
-			"value": "min_timer_duration",
-			"title": "syshud_option_timer_title",
-			"description": "syshud_option_timer_description",
+			"id": "min_timer_toggle_duration",
+			"value": "min_timer_toggle_duration",
+			"title": "syshud_option_timer_toggle_duration_title",
+			"description": "syshud_option_timer_toggle_duration_description",
 			"min": 0,
 			"max": 10,
 			"step": 0.5
@@ -27,10 +27,18 @@
 		{
 			"type": "toggle",
 			"callback": "SYSHUDToggleOption",
-			"id": "equipment",
-			"value": "equipment",
-			"title": "syshud_option_equipment_title",
-			"description": "syshud_option_equipment_description"
+			"id": "toggle_equipment",
+			"value": "toggle_equipment",
+			"title": "syshud_option_toggle_equipment_title",
+			"description": "syshud_option_toggle_equipment_description"
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "toggle_mask",
+			"value": "toggle_mask",
+			"title": "syshud_option_toggle_mask_title",
+			"description": "syshud_option_toggle_mask_description"
 		},
 		{
 			"type" : "divider",
@@ -43,6 +51,56 @@
 			"value": "empty_lobby",
 			"title": "syshud_empty_lobby_options_title",
 			"description": "syshud_empty_lobby_options_description"
+		},
+		{
+			"type" : "divider",
+			"size" : 20
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "skip_black_screen",
+			"value": "skip_black_screen",
+			"title": "syshud_options_skip_black_screen_title",
+			"description": "syshud_options_skip_black_screen_description"
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "skip_stat_screen",
+			"value": "skip_stat_screen",
+			"title": "syshud_skip_stat_screen_title",
+			"description": "syshud_skip_stat_screen_description"
+		},
+		{
+			"type": "slider",
+			"callback": "SYSHUDGenericOption",
+			"id": "skip_stat_screen_timer",
+			"value": "skip_stat_screen_timer",
+			"title": "syshud_skip_stat_screen_timer_title",
+			"description": "syshud_skip_stat_screen_timer_description",
+			"min": 3,
+			"max": 20,
+			"step": 1
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "skip_card_screen",
+			"value": "skip_card_screen",
+			"title": "syshud_skip_card_screen_title",
+			"description": "syshud_skip_card_screen_description"
+		},
+		{
+			"type": "slider",
+			"callback": "SYSHUDGenericOption",
+			"id": "skip_card_screen_timer",
+			"value": "skip_card_screen_timer",
+			"title": "syshud_skip_card_screen_timer_title",
+			"description": "syshud_skip_card_screen_timer_description",
+			"min": 5,
+			"max": 20,
+			"step": 1
 		}
 	]
 }
