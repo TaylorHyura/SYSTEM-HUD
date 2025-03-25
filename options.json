@@ -49,8 +49,16 @@
 			"callback": "SYSHUDToggleOption",
 			"id": "empty_lobby",
 			"value": "empty_lobby",
-			"title": "syshud_empty_lobby_options_title",
-			"description": "syshud_empty_lobby_options_description"
+			"title": "syshud_options_empty_lobby_title",
+			"description": "syshud_options_empty_lobby_description"
+		},
+		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "steam_inventory_lobby",
+			"value": "steam_inventory_lobby",
+			"title": "syshud_options_steam_inventory_lobby_title",
+			"description": "syshud_options_steam_inventory_lobby_description"
 		},
 		{
 			"type" : "divider",
@@ -69,16 +77,16 @@
 			"callback": "SYSHUDToggleOption",
 			"id": "skip_stat_screen",
 			"value": "skip_stat_screen",
-			"title": "syshud_skip_stat_screen_title",
-			"description": "syshud_skip_stat_screen_description"
+			"title": "syshud_options_skip_stat_screen_title",
+			"description": "syshud_options_skip_stat_screen_description"
 		},
 		{
 			"type": "slider",
 			"callback": "SYSHUDGenericOption",
 			"id": "skip_stat_screen_timer",
 			"value": "skip_stat_screen_timer",
-			"title": "syshud_skip_stat_screen_timer_title",
-			"description": "syshud_skip_stat_screen_timer_description",
+			"title": "syshud_options_skip_stat_screen_timer_title",
+			"description": "syshud_options_skip_stat_screen_timer_description",
 			"min": 3,
 			"max": 20,
 			"step": 1
@@ -88,16 +96,16 @@
 			"callback": "SYSHUDToggleOption",
 			"id": "skip_card_screen",
 			"value": "skip_card_screen",
-			"title": "syshud_skip_card_screen_title",
-			"description": "syshud_skip_card_screen_description"
+			"title": "syshud_options_skip_card_screen_title",
+			"description": "syshud_options_skip_card_screen_description"
 		},
 		{
 			"type": "slider",
 			"callback": "SYSHUDGenericOption",
 			"id": "skip_card_screen_timer",
 			"value": "skip_card_screen_timer",
-			"title": "syshud_skip_card_screen_timer_title",
-			"description": "syshud_skip_card_screen_timer_description",
+			"title": "syshud_options_skip_card_screen_timer_title",
+			"description": "syshud_options_skip_card_screen_timer_description",
 			"min": 5,
 			"max": 20,
 			"step": 1

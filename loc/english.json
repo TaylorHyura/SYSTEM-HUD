@@ -1,6 +1,6 @@
 {
-    "syshud_empty_lobby_title": "Create Empty Lobby",
-    "syshud_empty_lobby_description": "Create a contractless multiplayer lobby. (defaults to friends-only)",
+    "syshud_menu_empty_lobby_title": "Create Empty Lobby",
+    "syshud_menu_empty_lobby_description": "Create a contractless multiplayer lobby. (defaults to friends-only)",
 
     "syshud_options_title": "SYSTEM HUD",
     "syshud_options_description": "",
@@ -17,21 +17,24 @@
     "syshud_option_toggleble_mask_title": "Toggleble Mask",
     "syshud_option_toggleble_mask_description": "Makes equipping mask a toggle.",
 
-    "syshud_empty_lobby_options_title": "Create Empty Lobby",
-    "syshud_empty_lobby_options_description": "Adds a button to the main menu to create a contractless multiplayer lobby. (defaults to friends-only)",
+    "syshud_options_empty_lobby_title": "Create Empty Lobby",
+    "syshud_options_empty_lobby_description": "Adds a button to the main menu to create a contractless multiplayer lobby. (defaults to friends-only)",
+
+    "syshud_options_steam_inventory_lobby_title": "Steam Inventory in Lobby",
+    "syshud_options_steam_inventory_lobby_description": "Adds the steam items button in the game lobbys.",
 
     "syshud_options_skip_black_screen_title": "Skip Black Screen",
     "syshud_options_skip_black_screen_description": "Skips the black screen when loading into a heist.",
 
-    "syshud_skip_stat_screen_title": "Skip Stat Screen",
-    "syshud_skip_stat_screen_description": "Skips the stat screen at the end of a heist.",
+    "syshud_options_skip_stat_screen_title": "Skip Stat Screen",
+    "syshud_options_skip_stat_screen_description": "Skips the stat screen at the end of a heist.",
 
-    "syshud_skip_stat_screen_timer_title": "Skip Stat Screen Timer",
-    "syshud_skip_stat_screen_timer_description": "Skips the stat screen after a set amount of time.",
+    "syshud_options_skip_stat_screen_timer_title": "Skip Stat Screen Timer",
+    "syshud_options_skip_stat_screen_timer_description": "Skips the stat screen after a set amount of time.",
     
-    "syshud_skip_card_screen_title": "Skip Card Screen",
-    "syshud_skip_card_screen_description": "Skips the card screen at the end of a heist.",
+    "syshud_options_skip_card_screen_title": "Skip Card Screen",
+    "syshud_options_skip_card_screen_description": "Skips the card screen at the end of a heist.",
 
-    "syshud_skip_card_screen_timer_title": "Skip Card Screen Timer",
-    "syshud_skip_card_screen_timer_description": "Skips the card screen after a set amount of time."
+    "syshud_options_skip_card_screen_timer_title": "Skip Card Screen Timer",
+    "syshud_options_skip_card_screen_timer_description": "Skips the card screen after a set amount of time."
 }

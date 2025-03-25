@@ -9,6 +9,7 @@ SYSHUD._settings = {
 	toggleble_equipment = true,
 	toggleble_mask = true,
 	empty_lobby = true,
+	steam_inventory_lobby = true,
 	skip_black_screen = true,
 	skip_stat_screen = true,
 	skip_stat_screen_delay = 3,
