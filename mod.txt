@@ -21,7 +21,7 @@
 			"host": {
         		"meta": "https://raw.githubusercontent.com/TaylorHyura/SYSTEM-HUD/refs/heads/main/SYSTEMHUD.meta.json",
         		"patchnotes": "https://github.com/TaylorHyura/SYSTEM-HUD/commits/main",
-        		"download": "https://github.com/TaylorHyura/SYSTEM-HUD/archive/refs/heads/main.zip"
+        		"download": "https://github.com/TaylorHyura/SYSTEM-HUD/raw/refs/heads/main/SYSTEM%20HUD.zip"
       		}
 		}
 	]
