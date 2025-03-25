@@ -36,5 +36,8 @@
     "syshud_options_skip_card_screen_description": "Skips the card screen at the end of a heist.",
 
     "syshud_options_skip_card_screen_timer_title": "Skip Card Screen Timer",
-    "syshud_options_skip_card_screen_timer_description": "Skips the card screen after a set amount of time."
+    "syshud_options_skip_card_screen_timer_description": "Skips the card screen after a set amount of time.",
+
+    "syshud_options_mask_outfit_screen_title": "Mask in Outfit Screen",
+    "syshud_options_mask_outfit_screen_description": "Shows the mask in the outfit screen."
 }

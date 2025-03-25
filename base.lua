@@ -14,7 +14,8 @@ SYSHUD._settings = {
 	skip_stat_screen = true,
 	skip_stat_screen_delay = 3,
 	skip_card_screen = true,
-	skip_card_screen_delay = 5
+	skip_card_screen_delay = 5,
+	mask_outfit_screen = true
 }
 
 function SYSHUD:load()
