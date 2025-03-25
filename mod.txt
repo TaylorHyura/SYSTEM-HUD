@@ -19,7 +19,7 @@
 		{
 			"identifier" : "SYSTEMHUDGitHubUpdate",
 			"host": {
-        		"meta": "https://taylorhyura.github.io/SYSTEM-HUD/SYSTEMHUD.meta.json",
+        		"meta": "https://raw.githubusercontent.com/TaylorHyura/SYSTEM-HUD/refs/heads/main/SYSTEMHUD.meta.json",
         		"patchnotes": "https://github.com/TaylorHyura/SYSTEM-HUD/commits/main",
         		"download": "https://github.com/TaylorHyura/SYSTEM-HUD/archive/refs/heads/main.zip"
       		}
