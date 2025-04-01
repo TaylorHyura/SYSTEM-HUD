@@ -39,5 +39,8 @@
     "syshud_options_skip_card_screen_timer_description": "Skips the card screen after a set amount of time.",
 
     "syshud_options_mask_outfit_screen_title": "Mask in Outfit Screen",
-    "syshud_options_mask_outfit_screen_description": "Shows the mask in the outfit screen."
+    "syshud_options_mask_outfit_screen_description": "Shows the mask in the outfit screen.",
+
+    "syshud_options_hold_to_pick_title": "Hold to Pick",
+    "syshud_options_hold_to_pick_description": "Hold to pick up items instead of pressing the button."
 }
