@@ -15,7 +15,7 @@ if Network:is_server() and not Utils:IsInHeist() and Utils:IsInGameState() and n
 			DelayedCalls:Add("ForceStart_" .. tostring(i), 1, function()
 				local peer2 = managers.network:session() and managers.network:session():peer(i)
 				if peer2 then
-					peer2:send("send_chat_message", ChatManager.GAME, "syshud_chat_force_ready_success") -- Print to all clients
+					peer2:send("send_chat_message", ChatManager.GAME, managers.localization:text("syshud_chat_force_ready_success")) -- Print to all clients
 				end
 			end)
 		end
