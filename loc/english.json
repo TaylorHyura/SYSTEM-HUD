@@ -2,6 +2,9 @@
     "syshud_menu_empty_lobby_title": "Create Empty Lobby",
     "syshud_menu_empty_lobby_description": "Create a contractless multiplayer lobby. (defaults to friends-only)",
 
+    "syshud_chat_force_ready_success": "The heist has been forced to start.",
+	"syshud_chat_force_ready_fail": "Cannot start, a player may be joining.",
+
     "syshud_options_title": "SYSTEM HUD",
     "syshud_options_description": "",
 

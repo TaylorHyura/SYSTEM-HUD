@@ -3,7 +3,7 @@
   	"description": "",
   	"author": "Hyura",
 	"image" : "icon.png",
-  	"version": "1.6",
+  	"version": "1.7",
   	"blt_version": 2,
 	"hooks" : [
 		{"hook_id" : "lib/managers/menumanager", 						"script_path" : "base.lua"},
@@ -16,6 +16,17 @@
         {"hook_id" : "lib/states/ingamewaitingforplayers", 				"script_path" : "lua/skip_black_screen.lua"},
 		{"hook_id" : "lib/managers/menu/menuscenemanager",				"script_path" : "lua/mask_outfit_screen.lua"},
 		{"hook_id" : "lib/managers/objectinteractionmanager",           "script_path" : "lua/hold_to_pick.lua" }
+	],
+	"keybinds": [
+		{
+			"keybind_id": "force_ready",
+			"name": "Force Ready",
+			"description": "Forces the heist to start.",
+			"script_path": "lua/force_ready.lua",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		}
 	],
 	"updates" : [
 		{

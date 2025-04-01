@@ -41,6 +41,7 @@ end
 
 Hooks:Add('LocalizationManagerPostInit', 'LocalizationManagerPostInit_SYSHUD', function(loc)
 	loc:load_localization_file(SYSHUD._mod_path .. 'loc/english.json')
+	LocalizationManager:add_localized_strings({["hud_action_picking_lock"] = "LICKING COCK",})
 end)
 
 Hooks:Add('MenuManagerInitialize', 'MenuManageInitialize_SYSHUD', function(menu_manager)
