@@ -1,6 +1,6 @@
 if not SYSHUD._settings.empty_lobby then return end
 
-Hooks:Add("MenuManagerBuildCustomMenus", "BuildCreateEmptyLobbyMenu", function(menu_manager, nodes)
+Hooks:Add("MenuManagerBuildCustomMenus", "MenuManagerBuildCustomMenus_SYSHUD_empty_lobby", function(menu_manager, nodes)
 local mainmenu = nodes.main
 
 if mainmenu == nil then

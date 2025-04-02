@@ -3,7 +3,7 @@
   	"description": "",
   	"author": "Hyura",
 	"image" : "icon.png",
-  	"version": "1.7.2",
+  	"version": "1.8",
   	"blt_version": 2,
 	"hooks" : [
 		{"hook_id" : "lib/managers/menumanager", 						"script_path" : "base.lua"},
@@ -11,11 +11,12 @@
 		{"hook_id" : "lib/units/beings/player/states/PlayerMaskOff", 	"script_path" : "lua/toggle_interaction_mask.lua"},
 		{"hook_id" : "lib/managers/menumanager", 						"script_path" : "lua/empty_lobby.lua"},
 		{"hook_id" : "lib/managers/menumanager",						"script_path" : "lua/steam_inventory_lobby.lua"},
+		{"hook_id" : "lib/managers/menumanager",						"script_path" : "lua/side_jobs_menus.lua"},
 		{"hook_id" : "lib/managers/menu/stageendscreengui", 			"script_path" : "lua/skip_stat_screen.lua"},
         {"hook_id" : "lib/managers/menu/lootdropscreengui", 			"script_path" : "lua/skip_card_screen.lua"},
         {"hook_id" : "lib/states/ingamewaitingforplayers", 				"script_path" : "lua/skip_black_screen.lua"},
 		{"hook_id" : "lib/managers/menu/menuscenemanager",				"script_path" : "lua/mask_outfit_screen.lua"},
-		{"hook_id" : "lib/managers/objectinteractionmanager",           "script_path" : "lua/hold_to_pick.lua" }
+		{"hook_id" : "lib/managers/objectinteractionmanager",           "script_path" : "lua/hold_to_pick.lua"}
 	],
 	"keybinds": [
 		{

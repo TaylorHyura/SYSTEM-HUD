@@ -73,6 +73,14 @@
 			"description": "syshud_options_steam_inventory_lobby_description"
 		},
 		{
+			"type": "toggle",
+			"callback": "SYSHUDToggleOption",
+			"id": "side_jobs_menus",
+			"value": "side_jobs_menus",
+			"title": "syshud_options_side_jobs_menus_title",
+			"description": "syshud_options_side_jobs_menus_description"
+		},
+		{
 			"type" : "divider",
 			"size" : 10
 		},

@@ -26,6 +26,9 @@
     "syshud_options_steam_inventory_lobby_title": "Steam Inventory in Lobby",
     "syshud_options_steam_inventory_lobby_description": "Adds the steam items button in the game lobbys.",
 
+    "syshud_options_side_jobs_menus_title": "Side Jobs in Menus",
+    "syshud_options_side_jobs_menus_description": "Adds the side jobs button in the main menu and in the game lobbys.",
+
     "syshud_options_skip_black_screen_title": "Skip Black Screen",
     "syshud_options_skip_black_screen_description": "Skips the black screen when loading into a heist.",
 
