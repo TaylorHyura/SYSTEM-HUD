@@ -8,17 +8,17 @@
     "syshud_options_title": "SYSTEM HUD",
     "syshud_options_description": "",
 
-    "syshud_option_toggleble_interaction_title": "Toggleble Interaction",
-    "syshud_option_toggleble_interaction_description": "Makes interactions a toggle.",
+    "syshud_option_toggleable_interaction_title": "toggleable Interaction",
+    "syshud_option_toggleable_interaction_description": "Makes interactions a toggle.",
 
-    "syshud_option_toggleble_interaction_nin_timer_title": "Minimum Interaction Timer",
-    "syshud_option_toggleble_interaction_nin_timer_description": "Only applies to interactions.",
+    "syshud_option_toggleable_interaction_nin_timer_title": "Minimum Interaction Timer",
+    "syshud_option_toggleable_interaction_nin_timer_description": "Only applies to interactions.",
 
-    "syshud_option_toggleble_equipment_title": "Toggleble Equipment",
-    "syshud_option_toggleble_equipment_description": "Makes deploying equipment a toggle.",
+    "syshud_option_toggleable_equipment_title": "toggleable Equipment",
+    "syshud_option_toggleable_equipment_description": "Makes deploying equipment a toggle.",
 
-    "syshud_option_toggleble_mask_title": "Toggleble Mask",
-    "syshud_option_toggleble_mask_description": "Makes equipping mask a toggle.",
+    "syshud_option_toggleable_mask_title": "toggleable Mask",
+    "syshud_option_toggleable_mask_description": "Makes equipping mask a toggle.",
 
     "syshud_options_empty_lobby_title": "Create Empty Lobby",
     "syshud_options_empty_lobby_description": "Adds a button to the main menu to create a contractless multiplayer lobby. (defaults to friends-only)",

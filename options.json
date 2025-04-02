@@ -8,18 +8,18 @@
 		{
 			"type": "toggle",
 			"callback": "SYSHUDToggleOption",
-			"id": "toggleble_interaction",
-			"value": "toggleble_interaction",
-			"title": "syshud_option_toggleble_interaction_title",
-			"description": "syshud_option_toggleble_interaction_description"
+			"id": "toggleable_interaction",
+			"value": "toggleable_interaction",
+			"title": "syshud_option_toggleable_interaction_title",
+			"description": "syshud_option_toggleable_interaction_description"
 		},
 		{
 			"type": "slider",
 			"callback": "SYSHUDGenericOption",
-			"id": "toggleble_min_interaction_duration",
-			"value": "toggleble_min_interaction_duration",
-			"title": "syshud_option_toggleble_interaction_nin_timer_title",
-			"description": "syshud_option_toggleble_interaction_nin_timer_description",
+			"id": "toggleable_min_interaction_duration",
+			"value": "toggleable_min_interaction_duration",
+			"title": "syshud_option_toggleable_interaction_nin_timer_title",
+			"description": "syshud_option_toggleable_interaction_nin_timer_description",
 			"min": 0,
 			"max": 10,
 			"step": 0.5
@@ -27,18 +27,18 @@
 		{
 			"type": "toggle",
 			"callback": "SYSHUDToggleOption",
-			"id": "toggleble_equipment",
-			"value": "toggleble_equipment",
-			"title": "syshud_option_toggleble_equipment_title",
-			"description": "syshud_option_toggleble_equipment_description"
+			"id": "toggleable_equipment",
+			"value": "toggleable_equipment",
+			"title": "syshud_option_toggleable_equipment_title",
+			"description": "syshud_option_toggleable_equipment_description"
 		},
 		{
 			"type": "toggle",
 			"callback": "SYSHUDToggleOption",
-			"id": "toggleble_mask",
-			"value": "toggleble_mask",
-			"title": "syshud_option_toggleble_mask_title",
-			"description": "syshud_option_toggleble_mask_description"
+			"id": "toggleable_mask",
+			"value": "toggleable_mask",
+			"title": "syshud_option_toggleable_mask_title",
+			"description": "syshud_option_toggleable_mask_description"
 		},
 		{
 			"type" : "divider",
